@@ -15,6 +15,7 @@ def game(number):
         middle = l + (r - l) // 2
 
         if line[middle] == number:
+            attempts_count += 1
             predict = line[middle]
             break
 
